@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Web.Core\\MJFurionNET.Web.Core.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\MJFurionNET.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\MJFurionNET.Application.csproj",
+        "projectName": "MJFurionNET.Application",
+        "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\MJFurionNET.Application.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj": {
+                "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj",
+        "projectName": "MJFurionNET.Core",
+        "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "AspectCore.Extensions.Reflection": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "DotNetCore.Compile.Environment": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "DotNetCore.Natasha.CSharp": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Furion.Extras.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[4.8.8.3, )"
+            },
+            "Furion.Extras.ObjectMapper.Mapster": {
+              "target": "Package",
+              "version": "[4.8.8.3, )"
+            },
+            "Furion.Pure": {
+              "target": "Package",
+              "version": "[4.8.8.3, )"
+            },
+            "IPTools.China": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Lazy.Captcha.Core": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Magicodes.IE.Excel": {
+              "target": "Package",
+              "version": "[2.7.4.4, )"
+            },
+            "Magicodes.IE.Pdf": {
+              "target": "Package",
+              "version": "[2.7.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "NewLife.Redis": {
+              "target": "Package",
+              "version": "[5.3.2023.401, )"
+            },
+            "OnceMi.AspNetCore.OSS": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            },
+            "SKIT.FlurlHttpClient.Wechat.Api": {
+              "target": "Package",
+              "version": "[2.26.1, )"
+            },
+            "SKIT.FlurlHttpClient.Wechat.TenpayV3": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.67, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            },
+            "Yitter.IdGenerator": {
+              "target": "Package",
+              "version": "[1.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Web.Core\\MJFurionNET.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Web.Core\\MJFurionNET.Web.Core.csproj",
+        "projectName": "MJFurionNET.Web.Core",
+        "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Web.Core\\MJFurionNET.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\MJFurionNET.Application.csproj": {
+                "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Application\\MJFurionNET.Application.csproj"
+              },
+              "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj": {
+                "projectPath": "F:\\Projects\\MJFurionNet\\MJFurionNET\\MJFurionNET.Core\\MJFurionNET.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IGeekFan.AspNetCore.Knife4jUI": {
+              "target": "Package",
+              "version": "[0.0.13, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

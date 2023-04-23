@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MJFurionNET.Web.Entry.props" />
+</Project>
